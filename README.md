@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: ruby 2.6.3p62 (2019-04-16 revision 67580) [x64-mingw32]
 
-Things you may want to cover:
+* Deployment instructions:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - run rails db:migrate db:seed
+  - rake start
